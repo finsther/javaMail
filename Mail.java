@@ -77,7 +77,7 @@ public class Mail extends Task<String> {
             }
             return "Thanks for your message!";
         } else {
-            return "No internet connection";
+            return "Sorry, no internet connection";
         }
     }
 }
